@@ -22,3 +22,24 @@ body{
     background-color: var(--bg-color);
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 13%;
+    background: transparent;
+    transition: all .40s ease-in;
+
+}
+
+.imglogo{
+    width: 160px;
+    max-width: 100%;
+    height: auto;
+}
+
