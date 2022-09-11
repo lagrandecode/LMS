@@ -1,0 +1,23 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+
+/* Declaring the color padding and other important variables */
+:root{
+    --bg-color: #ffff;
+    --text-color: #fffff;
+}
+
+body{
+    background-color: var(--bg-color);
+}
