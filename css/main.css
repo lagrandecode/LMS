@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Tangerine', cursive;
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -14,8 +14,9 @@
 
 /* Declaring the color padding and other important variables */
 :root{
-    --bg-color: #ffff;
-    --text-color: #fffff;
+    --bg-color: rgb(255, 254, 254);
+    --text-color: rgb(31, 0, 167);
+    --hover-color: #15b800;
 }
 
 body{
@@ -38,8 +39,26 @@ header{
 }
 
 .imglogo{
-    width: 160px;
+    width: 80px;
     max-width: 100%;
     height: auto;
 }
+.navbar{
+    display: flex;
+}
 
+
+.navbar a{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    transition: all .40s ease;
+}
+
+.navbar a:hover{
+    color: var(--hover-color);
+    
+}
