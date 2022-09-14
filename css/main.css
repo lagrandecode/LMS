@@ -19,9 +19,13 @@
     --hover-color: #15b800;
 }
 
+/* adding background color  */
+
 body{
     background-color: var(--bg-color);
 }
+
+/* desiging the header */
 
 header{
     position: fixed;
@@ -37,6 +41,8 @@ header{
     transition: all .40s ease-in;
 
 }
+
+/* designing the logo */
 
 .imglogo{
     width: 80px;
@@ -60,5 +66,34 @@ header{
 
 .navbar a:hover{
     color: var(--hover-color);
+    transform: scale(1.2);
     
 }
+
+/* designing the icons on the navigation bar */
+.header-icon{ 
+    display: flex;
+    align-items: center;
+}
+
+
+.header-icon i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: var(--text-color);
+    transition: all .40s ease;
+    margin-right: 15px;
+}
+
+.header-icon i:hover{
+    transform: scale(1.2);
+    color: var(--hover-color);
+}
+.bx bx-menu{
+    color: black;
+    cursor: pointer;
+    font-size: 34px;
+    z-index: 10001;
+    display: none;
+}
+
