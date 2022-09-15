@@ -89,11 +89,23 @@ header{
     transform: scale(1.2);
     color: var(--hover-color);
 }
-.bx bx-menu-alt-right{
-    color: black;
-    cursor: pointer;
+
+#menu-icon{
     font-size: 24px;
-    z-index: 10001;
+    color: black;
     display: none;
 }
 
+
+section{
+    padding: 80px 13%;
+} 
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    align-items: center;
+}
