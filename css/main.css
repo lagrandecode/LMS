@@ -147,15 +147,15 @@ section{
 .latter form input:last-child{
     display: inline-block;
     position: absolute;
+    height: 22px;
     border: none;
     outline: none;
     background-color: var(--hover-color);
-    padding: 16px 10px;
     cursor: pointer;
     color: var(--text-color);
     font-weight: bold;
     border-radius: 30px;
-    top: 2px;
+    top: 3px;
     right: 1px;
 
 }
