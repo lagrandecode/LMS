@@ -89,10 +89,10 @@ header{
     transform: scale(1.2);
     color: var(--hover-color);
 }
-#menu-icon{
+.bx bx-menu-alt-right{
     color: black;
     cursor: pointer;
-    font-size: 54px;
+    font-size: 24px;
     z-index: 10001;
     display: none;
 }
