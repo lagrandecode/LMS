@@ -22,6 +22,7 @@
     --bg-color: #4831D4;
     --text-color: white;
     --hover-color: #15b800;
+    --container: white;
 
 }
 
@@ -131,23 +132,24 @@ section{
 
 .latter form{
     width: 100%;
-    max-width: 460px;
+    max-width: 490px;
     position: relative;
 }
 
 .latter form input:first-child{
+    font-size: 10px;
     display: inline-block;
     width: 100%;
     outline: none;
     border-radius: 30px;
     border: 2px solid var(--hover-color);
-    padding: 16px 140px 16px 15px;
+    padding: 16px 1px 16px 15px;
 }
 
 .latter form input:last-child{
+    font-size: 10px;
     display: inline-block;
     position: absolute;
-    height: 22px;
     border: none;
     outline: none;
     background-color: var(--hover-color);
@@ -155,7 +157,16 @@ section{
     color: var(--text-color);
     font-weight: bold;
     border-radius: 30px;
-    top: 3px;
+    padding: 16px 10px;
+    top: 2px;
     right: 1px;
 
 }
+home-img{
+    height: auto;
+    width: 100px;
+}
+.container{
+    background-color: var(--container);
+}
+
