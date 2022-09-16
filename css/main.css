@@ -170,3 +170,11 @@ home-img{
     background-color: var(--container);
 }
 
+header.sticky{
+    background-color: black;
+    padding: 12px ;
+    box-shadow: 0px 3px 2px 0px rgba(197, 197, 197, 1);
+}
+
+
+
