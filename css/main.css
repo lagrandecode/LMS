@@ -244,12 +244,20 @@ header.sticky{
 .view{
     text-align: center;
     margin-top: 3rem;
+    color: white;
 }
 
 .btn{
-
+    cursor: pointer;
     padding: 10px;
     border-radius: 10px;
     border: none;
+    color: white;
     background-color: var(--hover-color);
+}
+
+.view :hover{
+    transform: rotateY(-10px);
+    background-color: #4831D4;
+    transition: all .4s ease-in-out;
 }
