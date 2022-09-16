@@ -178,7 +178,7 @@ header.sticky{
     grid-template-columns: repeat(auto-fit,minmax(180px, auto));
     gap: .5rem;
     align-items: center;
-    cursor: pointer;
+
 }
 
 .container-box{
@@ -209,5 +209,11 @@ header.sticky{
 .container-text p{
     font-size: 10px;
     color: white;
-    
+
 } 
+
+.center-text{
+    display: flex;
+}
+
+
