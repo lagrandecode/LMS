@@ -28,9 +28,7 @@
 
 /* adding background color  */
 
-body{
-    background-color: var(--bg-color);
-}
+
 
 /* desiging the header */
 
@@ -178,6 +176,7 @@ header.sticky{
     grid-template-columns: repeat(auto-fit,minmax(180px, auto));
     gap: .5rem;
     align-items: center;
+    background-color: var(--bg-color);
 
 }
 
@@ -213,7 +212,10 @@ header.sticky{
 } 
 
 .center-text{
-    display: flex;
+
+    text-align: center;
 }
 
-
+.center-text h5{
+    font-size: 32px;
+}
