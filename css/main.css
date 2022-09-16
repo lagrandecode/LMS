@@ -216,6 +216,20 @@ header.sticky{
     text-align: center;
 }
 
-.center-text h5{
-    font-size: 32px;
+.center-text .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.center-text .sub{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.center-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, auto));
+    gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
 }
