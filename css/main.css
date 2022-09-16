@@ -261,3 +261,6 @@ header.sticky{
     background-color: #4831D4;
     transition: all .4s ease-in-out;
 }
+.courses{
+   background-color: var(--hover-color);
+}
