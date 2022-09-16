@@ -171,9 +171,8 @@ home-img{
 }
 
 header.sticky{
-    background-color: black;
+    background-color: var(--bg-color);
     padding: 12px ;
-    box-shadow: 0px 3px 2px 0px #909090;
 }
 
 
