@@ -340,6 +340,7 @@ header.sticky{
 }
 
 .contact-content{
+    height: 600px;
    
     padding-top: 20px;
     display: grid;
@@ -366,3 +367,13 @@ header.sticky{
     align-items: center;
 }
 
+
+
+/* setting up the width  */
+
+@media(max-width: 1400px){
+    header{
+        padding: 10px 3%;
+        transition: .2s;
+    }
+}
