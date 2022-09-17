@@ -234,12 +234,14 @@ header.sticky{
     text-align: center;
 }
 
+
 .box{
     padding: 20px;
     border-radius: 10px;
     transition: all .4s ease;
     box-shadow: 0px 0px 3px 0px var(--hover-color);
 }
+
 
 .view{
     text-align: center;
