@@ -237,6 +237,7 @@ header.sticky{
 
 
 .box{
+    height: 300px;
     padding: 20px;
     border-radius: 10px;
     transition: all .4s ease;
@@ -337,3 +338,31 @@ header.sticky{
     display: flex;
     padding-right: 10px;
 }
+
+.contact-content{
+   
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+}
+.about-home{
+    padding-top: 20px;
+}
+
+.about-login{
+    padding-top: 20px;
+
+}
+.address{
+    padding-top: 20px;
+
+}
+.map{
+    display: flex;
+    align-items: center;
+}
+.mapouter{
+    padding-top: 40px;
+    align-items: center;
+}
+
