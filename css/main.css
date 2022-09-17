@@ -23,6 +23,7 @@
     --text-color: white;
     --hover-color: #15b800;
     --container: white;
+    --red: red;
 
 }
 
@@ -278,4 +279,61 @@ header.sticky{
 .courses .sub{
     font-size: 16px;
     margin-bottom: 20px;
+}
+.course-content{
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 16px;
+    cursor: pointer;
+    grid-template-columns: repeat(auto-fit,minmax(350px,auto));
+}
+.row{
+    text-align: center;
+    border-radius: 16px;
+    height: 460px;
+    padding-bottom: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: all .4s ease;
+}
+.row:hover{
+    transform: rotateY(-10px);
+}
+
+.row img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    padding-bottom: 10px;
+}
+
+.course-text{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    
+
+}
+
+.course-text h2{
+    color: var(--red);
+
+}
+.add{
+    padding: 8px;
+  background-color: var(--bg-color);
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+.add:hover{
+    cursor: pointer;
+    background-color: var(--red);
+}
+.about-title{
+    font-size: 32px;
+}
+.about-svg{
+    display: flex;
+    padding: 20px;
 }
