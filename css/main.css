@@ -268,3 +268,12 @@ header.sticky{
 .courses{
    background-color: var(--hover-color);
 }
+
+.courses .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.courses .sub{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
