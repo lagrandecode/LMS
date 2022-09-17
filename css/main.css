@@ -377,3 +377,11 @@ header.sticky{
         transition: .2s;
     }
 }
+
+@media(max-width: 732px){
+    .header-icon{
+        display: none;
+    }
+
+}
+
